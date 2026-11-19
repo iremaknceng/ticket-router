@@ -1,0 +1,8 @@
+# Python 3.10 - 3.13
+numpy>=1.26
+scikit-learn>=1.4
+torch>=2.3                # uses torch.ao.quantization (dynamic INT8)
+transformers>=4.44
+huggingface_hub>=0.24
+gradio>=4.44,<6
+datasets>=2.19            # only used as a fallback to download CLINC150

@@ -1,0 +1,99 @@
+text,intent,lang,split
+bulaşık makinem su boşaltmıyor model DW-6534,appl_malfunction,tr,train
+buzdolabım soğutmuyor içi ılık,appl_malfunction,tr,train
+çamaşır makinesi sıkma yaparken çok ses çıkarıyor,appl_malfunction,tr,train
+fırın açılıyor ama ısınmıyor OV-2210,appl_malfunction,tr,train
+my dishwasher is not draining the water,appl_malfunction,en,train
+the fridge stopped cooling since yesterday,appl_malfunction,en,train
+washing machine shows error code E21 and won't start,appl_malfunction,en,train
+dryer is running but clothes are still wet model TD-7710,appl_malfunction,en,train
+kombi sıcak su vermiyor arıza var,appl_malfunction,tr,train
+bulaşık makinesi bulaşıkları temiz yıkamıyor,appl_malfunction,tr,val
+my oven door won't close properly,appl_malfunction,en,val
+buzdolabı sürekli tıkırtı sesi yapıyor RF-4410,appl_malfunction,tr,test
+çamaşır makinem su almıyor,appl_malfunction,tr,test
+the microwave sparks when i turn it on,appl_malfunction,en,test
+dishwaher leaking water on the kitchen floor,appl_malfunction,en,test
+teknisyen randevumu değiştirmek istiyorum,appl_service_appointment,tr,train
+servis ne zaman gelecek randevu almıştım,appl_service_appointment,tr,train
+yarın için teknik servis randevusu alabilir miyim,appl_service_appointment,tr,train
+servis teknisyeni gelmedi randevu saatim geçti,appl_service_appointment,tr,train
+i want to book a technician visit for my fridge,appl_service_appointment,en,train
+can i reschedule my repair appointment to friday,appl_service_appointment,en,train
+what time will the technician arrive today,appl_service_appointment,en,train
+please cancel my service appointment,appl_service_appointment,en,train
+servis randevumu iptal etmek istiyorum,appl_service_appointment,tr,train
+teknisyen hangi gün gelebilir,appl_service_appointment,tr,val
+i need someone to come and look at my washer next week,appl_service_appointment,en,val
+randevu saatimi öğleden sonraya alabilir misiniz,appl_service_appointment,tr,test
+when is my technician appointment,appl_service_appointment,en,test
+eve servis çağırmak istiyorum çamaşır makinesi için,appl_service_appointment,tr,test
+book a repair visit for my dishwasher please,appl_service_appointment,en,test
+bulaşık makinesi için yeni sepet tekerleği sipariş etmek istiyorum,appl_spare_parts,tr,train
+buzdolabı raf camı kırıldı yedek parça var mı,appl_spare_parts,tr,train
+fırın için yedek tel ızgara satıyor musunuz,appl_spare_parts,tr,train
+süpürge filtresi nereden alabilirim,appl_spare_parts,tr,train
+where can i buy a replacement filter for my vacuum cleaner,appl_spare_parts,en,train
+i need a new door seal for washing machine WM-8120,appl_spare_parts,en,train
+do you sell spare cutlery baskets for dishwashers,appl_spare_parts,en,train
+order a new water filter for my refrigerator,appl_spare_parts,en,train
+aspiratör yağ filtresi sipariş vermek istiyorum,appl_spare_parts,tr,train
+kurutma makinesi tüy filtresi yedek parça olarak var mı,appl_spare_parts,tr,val
+how much is a replacement glass tray for the microwave,appl_spare_parts,en,val
+DW-6534 için püskürtme kolu lazım,appl_spare_parts,tr,test
+buzdolabı kapı contası satın almak istiyorum,appl_spare_parts,tr,test
+i lost the remote of my air conditioner can i order one,appl_spare_parts,en,test
+spare part for oven knob model OV 2210,appl_spare_parts,en,test
+yeni aldığım bulaşık makinesinin kurulumu ne zaman yapılacak,appl_installation,tr,train
+çamaşır makinesi montajı ücretsiz mi,appl_installation,tr,train
+ankastre fırın kurulumu için ekip gönderir misiniz,appl_installation,tr,train
+klima montajı için randevu ve fiyat bilgisi,appl_installation,tr,train
+when will someone install my new dishwasher,appl_installation,en,train
+is installation included when i buy a built in oven,appl_installation,en,train
+i need help connecting the new washing machine to the water line,appl_installation,en,train
+can you install the cooktop and the hood together,appl_installation,en,train
+buzdolabımı yeni eve taşıdım tekrar kurulum gerekir mi,appl_installation,tr,train
+kombi ilk çalıştırma ve kurulum hizmeti istiyorum,appl_installation,tr,val
+do you remove the old appliance when installing the new one,appl_installation,en,val
+yeni kurutma makinemin kurulumunu yaptırmak istiyorum,appl_installation,tr,test
+montaj ekibi yarın gelebilir mi,appl_installation,tr,test
+how do i get my new fridge installed,appl_installation,en,test
+installation for my built in microwave please,appl_installation,en,test
+buzdolabımın garantisi devam ediyor mu,appl_warranty,tr,train
+garanti süresi kaç yıl,appl_warranty,tr,train
+garanti belgemi kaybettim ne yapmalıyım,appl_warranty,tr,train
+uzatılmış garanti satın almak istiyorum,appl_warranty,tr,train
+is my washing machine still under warranty,appl_warranty,en,train
+how long is the warranty on dishwasher DW-6534,appl_warranty,en,train
+does the warranty cover a broken compressor,appl_warranty,en,train
+can i extend the warranty of my oven,appl_warranty,en,train
+garanti kapsamında ücretsiz tamir yapılıyor mu,appl_warranty,tr,train
+fatura olmadan garantiden yararlanabilir miyim,appl_warranty,tr,val
+what does the extended warranty include,appl_warranty,en,val
+kurutma makinem garanti kapsamında mı,appl_warranty,tr,test
+garanti süremi seri numarasıyla sorgulamak istiyorum,appl_warranty,tr,test
+my fridge warranty expired last month can it still be repaired for free,appl_warranty,en,test
+check warranty status for model RF-4410,appl_warranty,en,test
+servis ücreti iki kere kartımdan çekildi,appl_billing_refund,tr,train
+iade ettiğim fırının parası hala yatmadı,appl_billing_refund,tr,train
+faturamı e-posta ile gönderebilir misiniz,appl_billing_refund,tr,train
+yedek parça ödemesi için taksit yapabilir misiniz,appl_billing_refund,tr,train
+i was charged twice for the repair service,appl_billing_refund,en,train
+when will i get my refund for the returned dishwasher,appl_billing_refund,en,train
+please send me the invoice for my spare part order,appl_billing_refund,en,train
+the technician charged me although the repair was under warranty,appl_billing_refund,en,train
+ürün iadesi yapıp paramı geri almak istiyorum,appl_billing_refund,tr,train
+fatura adresimi değiştirmem gerekiyor,appl_billing_refund,tr,val
+i want my money back for the broken kettle,appl_billing_refund,en,val
+ödeme yaptım ama faturam gelmedi,appl_billing_refund,tr,test
+geri ödeme ne zaman hesabıma geçer,appl_billing_refund,tr,test
+can i get a refund for the extended warranty i bought,appl_billing_refund,en,test
+i need a copy of my invoice for the washing machine,appl_billing_refund,en,test
+bu akşam maç kaç kaç bitti,oos,tr,train
+what is the capital of australia,oos,en,train
+bana bir şiir yazar mısın,oos,tr,val
+recommend me a good movie for tonight,oos,en,val
+istanbulda ev kiraları ne kadar,oos,tr,test
+yarın borsa yükselir mi,oos,tr,test
+how many legs does a spider have,oos,en,test
+who won the football world cup in 2010,oos,en,test
