@@ -1,0 +1,12 @@
+{
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "logical_cores": 2,
+  "python": "3.13.16",
+  "os": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "torch": "2.14.1+cu130",
+  "torch_threads": 1,
+  "gpu_used_for_training": "Tesla T4",
+  "latency_runs": 200,
+  "test_size": 5528,
+  "test_oos": 1004
+}

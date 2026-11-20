@@ -1,0 +1,7 @@
+{
+  "tfidf_lr": 0.25,
+  "w2v_ffnn": 0.9,
+  "bert_teacher": 0.7,
+  "student_fp32": 0.75,
+  "student_int8": 0.8
+}

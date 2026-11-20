@@ -1,0 +1,52 @@
+{
+  "tfidf_lr": {
+    "accuracy": 0.8874819102749638,
+    "in_scope_accuracy": 0.900972590627763,
+    "oos_recall": 0.8266932270916335,
+    "appliance_accuracy": 0.4642857142857143,
+    "latency_ms_mean": 25.354661065011896,
+    "latency_ms_p95": 33.462106549791315,
+    "size_mb": 66.79909992218018,
+    "threshold": 0.25
+  },
+  "w2v_ffnn": {
+    "accuracy": 0.7908827785817656,
+    "in_scope_accuracy": 0.769893899204244,
+    "oos_recall": 0.8854581673306773,
+    "appliance_accuracy": 0.35714285714285715,
+    "latency_ms_mean": 0.062160650004443596,
+    "latency_ms_p95": 0.08080944976427416,
+    "size_mb": 1.571518898010254,
+    "threshold": 0.9
+  },
+  "bert_teacher": {
+    "accuracy": 0.8771707670043415,
+    "in_scope_accuracy": 0.8715738284703802,
+    "oos_recall": 0.9023904382470119,
+    "appliance_accuracy": 0.6071428571428571,
+    "latency_ms_mean": 100.87495388499974,
+    "latency_ms_p95": 118.68106239983263,
+    "size_mb": 678.9400291442871,
+    "threshold": 0.7
+  },
+  "student_fp32": {
+    "accuracy": 0.891642547033285,
+    "in_scope_accuracy": 0.8963306808134395,
+    "oos_recall": 0.8705179282868526,
+    "appliance_accuracy": 0.6785714285714286,
+    "latency_ms_mean": 52.24941473499257,
+    "latency_ms_p95": 64.89604860005328,
+    "size_mb": 516.7007331848145,
+    "threshold": 0.75
+  },
+  "student_int8": {
+    "accuracy": 0.8605282199710564,
+    "in_scope_accuracy": 0.8463748894783377,
+    "oos_recall": 0.9243027888446215,
+    "appliance_accuracy": 0.5714285714285714,
+    "latency_ms_mean": 14.053964250001627,
+    "latency_ms_p95": 22.26290000035078,
+    "size_mb": 130.33698654174805,
+    "threshold": 0.8
+  }
+}
