@@ -9,7 +9,7 @@ MODEL_DIR = ROOT / "models"           # trained weights (git-ignored, hosted on 
 RESULTS_DIR = ROOT / "results"        # metrics produced by evaluate.py
 
 # Hugging Face Hub repo that hosts the trained weights (set yours here or via env var)
-HF_WEIGHTS_REPO = os.environ.get("ROUTER_HF_REPO", "YOUR_HF_USERNAME/ticket-router-weights")
+HF_WEIGHTS_REPO = os.environ.get("ROUTER_HF_REPO", "iremaknceng/ticket-router-weights")
 
 # CLINC150 "oos_plus" split (has 250 out-of-scope training examples)
 CLINC_URL = "https://raw.githubusercontent.com/clinc/oos-eval/master/data/data_oos_plus.json"
